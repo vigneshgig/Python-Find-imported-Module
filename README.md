@@ -4,14 +4,16 @@ pip3 install findimport
 # Example:
 # findownimportfile
 if the source file in /mnt/c/workspace/example/source_code.py
-Input:
+
+## Input:
 python3 -m findimport  --source source_code.py --path /mnt/c/workspace/ or /mnt/c/workspace/example
-Output:
+
+## Output:
 /mnt/c/workspace/example/own_import_find.txt
 
-Input:
+## Input:
 python3 -m findimport  --source source_code.py --path /mnt/c/workspace/ or /mnt/c/workspace/example --save_text /mnt/c/workspace/imported_file.txt
-Ouput:
+## Ouput:
 /mnt/c/workspace/imported_file.txt
 
 
@@ -24,6 +26,7 @@ $ python3.7
 
 # findownimportfile
 python3 -m findimport  --source source_code.py --path 'dummystring' --find_all_import
+
 
 $ python3.7
 >> import findimport
